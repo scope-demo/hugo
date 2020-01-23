@@ -27,7 +27,7 @@ jobs:
     - name: Scope for Go
       uses: undefinedlabs/scope-for-go-action@master
       with:
-        dsn: ${{secrets.SCOPE_DSN}} # required
+        dsn: ${{secrets.SCOPE_DSN}}
 
     - name: Upload Scope logs
       if: always()
