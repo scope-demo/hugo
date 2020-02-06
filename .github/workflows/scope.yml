@@ -35,3 +35,4 @@ jobs:
       with:
         name: Scope for Go logs
         path: /home/runner/.scope-results
+
