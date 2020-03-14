@@ -25,7 +25,7 @@ jobs:
         dsn: ${{secrets.SCOPE_DSN}}
         race-detector: true
         no-parallel: true
-        version: errors-logs-improvements
+        version: master
 
 
     - name: Upload Scope logs
