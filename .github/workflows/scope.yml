@@ -19,7 +19,6 @@ jobs:
     - name: Get dependencies
       run: go get -v -t -d ./...
 
-
     - name: Scope for Go
       uses: undefinedlabs/scope-for-go-action@v2
       with:
@@ -27,7 +26,6 @@ jobs:
         race-detector: false
         no-parallel: true
         version: master
-
 
     - name: Upload Scope logs
       if: always()
