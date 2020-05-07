@@ -27,6 +27,8 @@ jobs:
         race-detector: false
         no-parallel: true
         version: master
+        
+        
 
     - name: Upload Scope logs
       if: always()
