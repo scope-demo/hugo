@@ -25,8 +25,13 @@ jobs:
       with:
         dsn: ${{secrets.SCOPE_DSN}}
         race-detector: false
+        version: v0.3.1
         no-parallel: true
-        version: v0.3.0
+      env:
+        SCOPE_TESTING_FAIL_RETRIES: 3
+        SCOPE_DEBUG: true
+        SCOPE_RUNNER_ENABLED: true
+        #SCOPE_RUNNER_EXCLUDE_BRANCHES: master
         
         
 
