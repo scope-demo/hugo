@@ -25,7 +25,7 @@ jobs:
       with:
         dsn: ${{secrets.SCOPE_DSN}}
         race-detector: false
-        version: 32b5950b9c52ef9fa3eb68468ea9327f926c089b
+        version: 4b235112ce6629cb8dfcb50d096144601eecdaaf
         no-parallel: true
       env:
         SCOPE_TESTING_FAIL_RETRIES: 3
